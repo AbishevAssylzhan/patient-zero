@@ -88,3 +88,11 @@ The longest common subsequence has length 1177.
 KMP found the marker 6 times, with the first occurrence at position 2788.
 The infection tree requires at least 27 tested people, while the minimum total testing cost is 112.
 The longest infection chain contains 22 links.
+
+## Algorithm Implementation Notes
+
+Edit Distance and LCS use dynamic programming tables.
+KMP uses the prefix function to avoid unnecessary comparisons.
+Rabin-Karp uses rolling hashes and verifies matching candidates.
+Tree DP uses two states for each person and reconstructs the selected testing set.
+The longest infection chain is calculated using the two deepest branches.
