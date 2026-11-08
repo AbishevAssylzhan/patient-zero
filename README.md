@@ -79,3 +79,12 @@ The project was tested using java tools/Check.java.
 - dense: all 9 lines are right
 
 All examples passed successfully.
+
+## Personal Results Analysis
+
+The edit distance between the two strains is 67.
+The longest common subsequence has length 1177.
+
+KMP found the marker 6 times, with the first occurrence at position 2788.
+The infection tree requires at least 27 tested people, while the minimum total testing cost is 112.
+The longest infection chain contains 22 links.
