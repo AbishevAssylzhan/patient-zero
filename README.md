@@ -69,3 +69,13 @@ n is the length of the text (or of a strain), m is the length of the pattern, k 
 
 For Rabin-Karp, rolling hashes allow each window hash to be updated in O(1). When many windows have equal hashes, additional character comparisons increase the running time.
 
+
+## Verification
+
+The project was tested using java tools/Check.java.
+
+- tiny: all 9 lines are right
+- small: all 9 lines are right
+- dense: all 9 lines are right
+
+All examples passed successfully.
